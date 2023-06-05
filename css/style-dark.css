@@ -4,18 +4,6 @@ body {
   background-color: #1e1e1e;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color: inherit;
-  font-size: 16px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 5px;
-}
-
 .main-header {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -28,11 +16,11 @@ ul {
   background-color: #1e1e1e;
 }
 
-.all-header {
+.header-left {
   padding-left: 20px;
 }
 
-.margin-r {
+.header-right {
   padding-right: 60px;
 }
 
@@ -61,6 +49,18 @@ ul {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
 .header-btn {
   background-color: #8c36cf;
   color: #ffffff;
@@ -82,23 +82,14 @@ ul {
   padding-left: 20px;
 }
 
-.container {
-  position: relative;
-  max-width: 1280px;
-  width: 100%;
-  padding: 0 3%;
-}
-
 .container-flex {
   display: flex;
   gap: 70px;
 }
 
 .container-text {
-  font-size: 16px;
-  font-weight: 500;
   line-height: 50px;
-  border-radius: 8px;
+
 }
 
 h1 {
@@ -108,6 +99,10 @@ h1 {
   align-items: Left;
   vertical-align: Top;
   color: #c1bfbf;
+}
+
+.p-space {
+  letter-spacing: 2px;
 }
 
 p {
@@ -160,6 +155,11 @@ li {
   line-height: 24px;
   margin-bottom: 15px;
   color: #c1bfbf;
+}
+
+.phone-bold {
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .container-datos {
@@ -237,10 +237,6 @@ textarea {
   font-family: 'Poppins', sans-serif;
 }
 
-.d-grid {
-  display: block;
-}
-
 .btn-form {
   width: 600px;
   height: 66px;
@@ -259,11 +255,4 @@ textarea {
   cursor: pointer;
 }
 
-.phone-bold {
-  letter-spacing: 2px;
-  font-weight: bold;
-}
 
-.p-space {
-  letter-spacing: 2px;
-}
